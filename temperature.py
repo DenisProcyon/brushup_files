@@ -1,4 +1,5 @@
 def c_to_f(c: int | float | list) -> int|float|list:
+    """This sunction is updated for the merge"""
     if isinstance(c, (int, float)):
         result = c * 9/5 + 32
     elif isinstance(c, list):
